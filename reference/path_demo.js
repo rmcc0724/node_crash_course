@@ -10,7 +10,7 @@ console.log(path.dirname(__filename));
 console.log(path.extname(__filename));
 
 //Create Path Object
-console.log(path.parse(__filename).base);
+console.log(path.parse(__filename));
 
 //Concatenate paths
 console.log(path.join(__dirname, 'test', 'hello.html'));
