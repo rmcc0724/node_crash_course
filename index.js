@@ -54,16 +54,16 @@ const server = http.createServer((req, res) => {
         case 'js':
             contentType = 'text/javascript';
             break;
-        case 'js':
+        case 'css':
             contentType = 'text/css';
             break;
-        case 'js':
+        case 'json':
             contentType = 'application/json';
             break;
-        case 'js':
+        case 'png':
             contentType = 'image/png';
             break;
-        case 'js':
+        case 'jpg':
             contentType = 'image/jpg';
             break;
     }
